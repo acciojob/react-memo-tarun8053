@@ -8,7 +8,7 @@ function UseMemo({ todos, addTodo }) {
       <h3>Total Todos (useMemo)</h3>
       <p>{totalTodos}</p>
 
-      {/* REQUIRED FOR CYPRESS */}
+      
       <button onClick={addTodo}>Add Todo</button>
 
       <ul>
